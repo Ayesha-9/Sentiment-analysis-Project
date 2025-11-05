@@ -1,6 +1,6 @@
 # 💬 Sentiment Analysis using Python (Tkinter + MySQL)
 
-![Project Banner](assets/screenshot_130.png)
+![Project Banner](assets/Screenshot (130).png)
 
 A **Machine Learning–based Sentiment Analysis Application** that classifies user sentiments from Twitter data as **Positive**, **Negative**, or **Neutral**.  
 This project combines **Python**, **Tkinter GUI**, **MySQL Database**, and **Matplotlib Visualization** to deliver an end-to-end interactive sentiment analysis tool.
