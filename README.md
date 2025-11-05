@@ -84,7 +84,6 @@ The sentiment and user data are visualized using **bar charts**.
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/Ayesha-9/Sentiment-analysis-Project.git
 
 2. Open XAMPP Control Panel
