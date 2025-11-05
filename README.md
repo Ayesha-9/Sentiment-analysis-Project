@@ -87,25 +87,20 @@ The sentiment and user data are visualized using **bar charts**.
 ```bash
 git clone https://github.com/Ayesha-9/Sentiment-analysis-Project.git
 
-### 2. Open XAMPP Control Panel
-
-Start Apache and MySQL
-
-Make sure MySQL is running on Port 3306 (or 3307 if changed)
+2. Open XAMPP Control Panel
+   Start Apache and MySQL
+   Make sure MySQL is running on Port 3306 (or 3307 if changed)
 
 3. Import Database
-
-Open phpMyAdmin
-
-Create a new database: sentiment_analysis
-
-Import your SQL file (if provided)
+   Open phpMyAdmin
+   Create a new database: sentiment_analysis
+   Import your SQL file (if provided)
 
 4. Install required libraries
-pip install pandas numpy matplotlib nltk scikit-learn mysql-connector-python
+   pip install pandas numpy matplotlib nltk scikit-learn mysql-connector-python
 
 5. Run the application
-python getstart.py
+   python getstart.py
 
 📊 Sample Output
 Sentiment Analysis Result:
@@ -114,28 +109,23 @@ Positive: 137.668
 Negative: 92.512
 Neutral: 931.833
 
-
 And the GUI updates automatically with these values!
 
 📈 Example Visualization
-
 The bar chart below shows user counts by year.
 ![Visualization](assets/screenshot_137.png)
 
 📂 Project Structure
 📦 Sentiment-analysis-Project
-├── getstartf.py                  # Getting started page
+├── getstartf.py               # Getting started page
 ├── loginpgf.py                # Login window logic
-├── mainpg.py               # Main GUI file
+├── mainpg.py                  # Main GUI file
 ├── FinalSentimentla.csv       # Dataset used
 ├── assets/                    # Screenshots and visualizations
 ├── README.md                  # Project documentation
 └── requirements.txt           # Python dependencies
 
 🧩 Real-World Application Scenarios
-
-🐦 Social Media Monitoring: Analyze Twitter or Instagram sentiments about brands or products.
-
-📰 Political Sentiment Tracking: Evaluate public opinion on policies or politicians.
-
-💬 Customer Feedback Analysis: Understand customer satisfaction from survey responses or reviews.
+- 🐦 Social Media Monitoring: Analyze public sentiment toward brands or events
+- 📰 Political Sentiment Tracking: Gauge public opinion from tweets or posts
+- 💬 Customer Feedback Analysis: Understand satisfaction levels from reviews
